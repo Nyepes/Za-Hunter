@@ -47,13 +47,45 @@
                     <view key="view" contentMode="scaleToFill" id="ctt-Mh-ShS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IyH-tg-m0S">
+                                <rect key="frame" x="107" y="79" width="200" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWH-El-oGH">
+                                <rect key="frame" x="20" y="118" width="200" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woy-ty-lhu">
+                                <rect key="frame" x="20" y="276" width="200" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IcZ-XI-nwv" firstAttribute="trailing" secondItem="IyH-tg-m0S" secondAttribute="trailing" constant="107" id="NKo-AB-ECW"/>
+                            <constraint firstItem="IyH-tg-m0S" firstAttribute="top" secondItem="IcZ-XI-nwv" secondAttribute="top" constant="35" id="PwA-N8-Jvc"/>
+                            <constraint firstItem="IyH-tg-m0S" firstAttribute="leading" secondItem="IcZ-XI-nwv" secondAttribute="leading" constant="107" id="dVY-kP-hS1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="IcZ-XI-nwv"/>
                     </view>
+                    <connections>
+                        <outlet property="addressLabel" destination="SWH-El-oGH" id="t7E-wt-jgY"/>
+                        <outlet property="nameLabel" destination="IyH-tg-m0S" id="EnM-iR-80L"/>
+                        <outlet property="phoneLabel" destination="woy-ty-lhu" id="Cda-Ok-z9V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2uA-LO-aM6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1014" y="130"/>
+            <point key="canvasLocation" x="1013.0434782608696" y="129.91071428571428"/>
         </scene>
     </scenes>
 </document>
