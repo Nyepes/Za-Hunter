@@ -14,6 +14,7 @@
 		37F4F12B22D6464B00B10941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F4F12922D6464B00B10941 /* LaunchScreen.storyboard */; };
 		37F4F13622D6464B00B10941 /* Za__HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4F13522D6464B00B10941 /* Za__HunterTests.swift */; };
 		37F4F14122D6464B00B10941 /* Za__HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4F14022D6464B00B10941 /* Za__HunterUITests.swift */; };
+		37F4F14F22D65FB600B10941 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4F14E22D65FB600B10941 /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		37F4F13C22D6464B00B10941 /* Za' HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Za' HunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F4F14022D6464B00B10941 /* Za__HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Za__HunterUITests.swift; sourceTree = "<group>"; };
 		37F4F14222D6464B00B10941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F4F14E22D65FB600B10941 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				37F4F12022D6464A00B10941 /* AppDelegate.swift */,
 				37F4F12222D6464A00B10941 /* ViewController.swift */,
+				37F4F14E22D65FB600B10941 /* LocationDetailsViewController.swift */,
 				37F4F12422D6464A00B10941 /* Main.storyboard */,
 				37F4F12722D6464B00B10941 /* Assets.xcassets */,
 				37F4F12922D6464B00B10941 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F4F14F22D65FB600B10941 /* LocationDetailsViewController.swift in Sources */,
 				37F4F12322D6464A00B10941 /* ViewController.swift in Sources */,
 				37F4F12122D6464A00B10941 /* AppDelegate.swift in Sources */,
 			);
