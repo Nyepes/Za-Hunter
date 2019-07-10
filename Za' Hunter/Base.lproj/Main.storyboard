@@ -54,26 +54,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWH-El-oGH">
-                                <rect key="frame" x="20" y="118" width="200" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWH-El-oGH">
+                                <rect key="frame" x="20" y="118" width="66.5" height="21.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woy-ty-lhu">
-                                <rect key="frame" x="20" y="276" width="200" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woy-ty-lhu">
+                                <rect key="frame" x="20" y="147.5" width="200" height="21.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Hn-MA-bT3">
+                                <rect key="frame" x="158" y="308" width="98" height="30"/>
+                                <state key="normal" title="Get Directions"/>
+                                <connections>
+                                    <action selector="onDirectionsButtonTapped:" destination="yVL-uu-lOx" eventType="touchUpInside" id="Zuu-MP-APY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="IcZ-XI-nwv" firstAttribute="trailing" secondItem="0Hn-MA-bT3" secondAttribute="trailing" constant="158" id="0pL-dT-orX"/>
+                            <constraint firstItem="0Hn-MA-bT3" firstAttribute="leading" secondItem="IcZ-XI-nwv" secondAttribute="leading" constant="158" id="80u-S0-G6q"/>
+                            <constraint firstItem="IcZ-XI-nwv" firstAttribute="trailing" secondItem="woy-ty-lhu" secondAttribute="trailing" constant="194" id="86Q-au-3gR"/>
+                            <constraint firstItem="woy-ty-lhu" firstAttribute="leading" secondItem="IcZ-XI-nwv" secondAttribute="leading" constant="20" id="Fgt-zj-2o0"/>
+                            <constraint firstItem="SWH-El-oGH" firstAttribute="top" secondItem="IyH-tg-m0S" secondAttribute="bottom" constant="17.5" id="Ft3-7Y-4AU"/>
+                            <constraint firstItem="woy-ty-lhu" firstAttribute="top" secondItem="SWH-El-oGH" secondAttribute="bottom" constant="8" id="Fvy-LI-T9L"/>
+                            <constraint firstItem="IyH-tg-m0S" firstAttribute="centerX" secondItem="ctt-Mh-ShS" secondAttribute="centerX" id="KTV-Vh-ncC"/>
                             <constraint firstItem="IcZ-XI-nwv" firstAttribute="trailing" secondItem="IyH-tg-m0S" secondAttribute="trailing" constant="107" id="NKo-AB-ECW"/>
                             <constraint firstItem="IyH-tg-m0S" firstAttribute="top" secondItem="IcZ-XI-nwv" secondAttribute="top" constant="35" id="PwA-N8-Jvc"/>
+                            <constraint firstItem="SWH-El-oGH" firstAttribute="leading" secondItem="IcZ-XI-nwv" secondAttribute="leading" constant="20" id="Wlv-p9-tkf"/>
                             <constraint firstItem="IyH-tg-m0S" firstAttribute="leading" secondItem="IcZ-XI-nwv" secondAttribute="leading" constant="107" id="dVY-kP-hS1"/>
+                            <constraint firstItem="woy-ty-lhu" firstAttribute="top" secondItem="SWH-El-oGH" secondAttribute="bottom" constant="8" id="fLh-qC-R28"/>
+                            <constraint firstItem="0Hn-MA-bT3" firstAttribute="top" secondItem="woy-ty-lhu" secondAttribute="bottom" constant="139" id="gr9-TV-w4k"/>
+                            <constraint firstItem="0Hn-MA-bT3" firstAttribute="centerX" secondItem="ctt-Mh-ShS" secondAttribute="centerX" id="v1B-TZ-W6u"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IcZ-XI-nwv"/>
                     </view>
